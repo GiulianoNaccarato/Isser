@@ -1,0 +1,178 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62,5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr 0.3fr;
+    grid-template-areas: "header" "main" "footer";
+}
+
+.header-1{
+    background-color: rgb(32, 29, 29);
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    grid-area: header;
+}
+
+.header-1 h1{
+    color: white;
+}
+
+.MenuPrincipal li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.MenuPrincipal li a{
+    text-decoration: none;
+    color: white;
+}
+
+.galeria-1{
+    background-color: #ffd60ab6;
+    grid-area: main;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    justify-content: space-around; 
+    align-items: center; 
+    row-gap: 30px;
+}
+
+.foto1{
+    background-image: url(../multimedia/jpg/Logo\ original.jpeg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 700px;
+    height: 250px; 
+    display: inline-block;
+    margin: 15px 0;
+}
+
+.mapa{
+    background-image: url(../multimedia/jpg/mapa.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 500px;
+    height: 250px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.footer-1{
+    background-color: rgb(32, 29, 29);
+    grid-area: footer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-1 p{
+    color: white;
+}
+
+.contenedor2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr 0.4fr;
+    grid-template-areas: "header" "nosotros" "footer";
+}
+
+.nosotros{
+    background-color: #ffd60ab6;
+    grid-area: nosotros;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center; 
+    align-items: center;
+}
+
+.nosotros div{
+    display: inline-flex;  
+    padding-top: 30px;
+}
+
+.parrafo1{
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.parrafo2{
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+.foto2{
+    width: 500px;
+    height: 200px;
+    padding-left: 150px;
+}
+
+.imagen2{
+    width: 450px;
+    height: 200px;
+    order: 1;
+    padding-right: 200px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:500px){
+  
+    .header-1{
+        flex-direction: column;
+    }
+
+    .footer-1{
+        flex-direction: column;
+    }
+
+    .nosotros{
+        flex-wrap: nowrap;
+    }
+
+    .div-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foto2{
+        padding-left: 100px; 
+    }
+
+    .imagen2{
+        padding-left: 100px;
+        order: 0;
+    }
+
+}
+
+
+
+
+
+
+
+ 
