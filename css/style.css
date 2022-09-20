@@ -11,6 +11,34 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.bg-blacks{
+    background-color: rgb(32, 29, 29);
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.bg-bodys{
+    background-color: #ffd60ab6;
+}
+
+.btn-primary{
+    --bs-btn-bg: rgb(32, 29, 29);
+    --bs-btn-border-color: rgb(32, 29, 29);
+    --bs-btn-hover-bg: rgb(32, 29, 29);
+    --bs-btn-hover-border-color: rgb(32, 29, 29);
+    --bs-btn-active-bg:  rgb(32, 29, 29);
+    --bs-btn-active-border-color: rgb(32, 29, 29);
+    --bs-btn-active-shadow: rgb(32, 29, 29);
+    --bs-btn-disabled-bg: rgb(32, 29, 29);
+    --bs-btn-disabled-border-color: rgb(32, 29, 29);
+}
+
 .contenedor{
     display: grid;
     grid-template-columns: 1fr;
