@@ -11,13 +11,11 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
 .bg-blacks{
     background-color: rgb(32, 29, 29);
 }
 
-.navbar-brand{
-    color: white;
-}
 
 .nav-link{
     color: white;
@@ -39,7 +37,7 @@ body{
     --bs-btn-disabled-border-color: rgb(32, 29, 29);
 }
 
-.contenedor{
+/* .contenedor{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.3fr 1fr 0.3fr;
@@ -195,7 +193,7 @@ body{
         order: 0;
     }
 
-}
+} */
 
 
 
