@@ -1,0 +1,44 @@
+.contenedor2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr 0.4fr;
+    grid-template-areas: "header" "nosotros" "footer";
+}
+
+.nosotros{
+    background-color: $colorSecundario;
+    grid-area: nosotros;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center; 
+    align-items: center;
+     div{
+        display: inline-flex;  
+        padding-top: 30px;
+    }
+}
+
+
+.parrafo1{
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.parrafo2{
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+.foto2{
+    width: 500px;
+    height: 200px;
+    padding-left: 150px;
+}
+
+.imagen2{
+    width: 450px;
+    height: 200px;
+    order: 1;
+    padding-right: 200px;
+    padding-bottom: 20px;
+}

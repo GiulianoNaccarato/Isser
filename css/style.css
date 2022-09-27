@@ -37,7 +37,7 @@ body{
     --bs-btn-disabled-border-color: rgb(32, 29, 29);
 }
 
-/* .contenedor{
+/* /* .contenedor{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.3fr 1fr 0.3fr;
@@ -111,7 +111,7 @@ body{
 
 .footer-1 p{
     color: white;
-}
+} */
 
 .contenedor2{
     display: grid;
@@ -157,7 +157,7 @@ body{
     padding-right: 200px;
     padding-bottom: 20px;
 }
-
+/* 
 @media screen and (max-width:500px){
   
     .header-1{
@@ -193,7 +193,7 @@ body{
         order: 0;
     }
 
-} */
+} */ 
 
 
 
@@ -201,4 +201,4 @@ body{
 
 
 
- 
+  

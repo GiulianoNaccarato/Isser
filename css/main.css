@@ -1,0 +1,66 @@
+.contenedor2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 1fr 0.4fr;
+  grid-template-areas: "header" "nosotros" "footer"; }
+
+.nosotros {
+  background-color: #ffd60ab6;
+  grid-area: nosotros;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .nosotros div {
+    display: inline-flex;
+    padding-top: 30px; }
+
+.parrafo1 {
+  padding-left: 50px;
+  padding-top: 80px; }
+
+.parrafo2 {
+  padding-left: 100px;
+  padding-top: 80px; }
+
+.foto2 {
+  width: 500px;
+  height: 200px;
+  padding-left: 150px; }
+
+.imagen2 {
+  width: 450px;
+  height: 200px;
+  order: 1;
+  padding-right: 200px;
+  padding-bottom: 20px; }
+
+* {
+  margin: 0%;
+  padding: 0%; }
+
+html {
+  font-size: 62,5%; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.bg-blacks {
+  background-color: #201d1d; }
+
+.nav-link {
+  color: white; }
+
+.bg-bodys {
+  background-color: #ffd60ab6; }
+
+.btn-primary {
+  --bs-btn-bg: rgb(32, 29, 29);
+  --bs-btn-border-color: rgb(32, 29, 29);
+  --bs-btn-hover-bg: rgb(32, 29, 29);
+  --bs-btn-hover-border-color: rgb(32, 29, 29);
+  --bs-btn-active-bg:  rgb(32, 29, 29);
+  --bs-btn-active-border-color: rgb(32, 29, 29);
+  --bs-btn-active-shadow: rgb(32, 29, 29);
+  --bs-btn-disabled-bg: rgb(32, 29, 29);
+  --bs-btn-disabled-border-color: rgb(32, 29, 29); }
