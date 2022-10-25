@@ -37,6 +37,10 @@ body{
     --bs-btn-disabled-border-color:  rgb(32, 29, 29);
 }
 
+.parrafo-2{
+    margin: 100px 0;
+}
+
 .altura-a-b{
     padding : 30px 0;
 }  
@@ -90,6 +94,11 @@ body{
     transform: translateY(-10px);
 }
 
+@media only screen and (max-width: 770px){
+    .parrafo-2{
+        margin: 0 0;
+    }
+}
 
 
 
